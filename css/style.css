@@ -1,0 +1,169 @@
+html {
+  font-size: 62.5%;
+}
+body {
+  width: 980px;
+  margin: 0 auto;
+  height: 100%
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style: none;
+  float: left;
+}
+.header {
+  background-color: #F5B4B3;
+  height: 50px;
+  font-size: 1.5rem;
+}
+.top_menu {
+  float: right;
+  width: auto;
+}
+.top_menu li a {
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  padding: 15px;
+  font-size: 2rem;
+}
+.top_menu li a:hover {
+  text-decoration: underline;
+}
+.logo_image {
+  width: 110px;
+  float: left;
+  margin: 0;
+}
+
+.image_top {
+  background-image: url("../images/TOP.png");
+  height: 200px;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+}
+
+.image_top {
+  background-image: url("../images/business.png");
+  height: 200px;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  }
+
+  .image_top {
+    background-image: url("../images/company.png");
+    height: 200px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+  }
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.flexbox-container {
+  display: flex;
+  flex-direction: column;
+
+
+}
+.flexbox-container .flexbox-item {
+  background-color: #F5B4B3;
+  padding-left: 20px;
+  margin-top: 5px;
+  margin-right: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+
+}
+.flexbox-container .flexbox-item a:hover {
+ color: #fff;
+ font-size: 1.5rem;
+ opacity: 0.5;
+ 
+}
+.flexbox-container .flexbox-item a {
+  color: #fff;
+  font-size: 2rem;
+  text-decoration:none ;
+  display: block;
+  
+ }
+.banner_image {
+  padding: 0 !important;
+  height: 150px;
+}
+aside {
+  width: 30vw;
+}
+
+
+
+article {
+  padding: 5px;
+    width: 70vw;
+  display: flex;
+  flex-direction: column;
+}
+article .what-new {
+  font-size: 1.5rem;
+
+}
+
+article .renewal {
+  font-size: 1.5rem;
+  background-color: rgba(245, 180, 179,0.4);
+  padding-top: 10px;
+  height: 200px;
+
+
+}
+article .renewal p {
+padding-left: 20px;
+}
+
+.image_area  {
+  display: flex;
+  width: 100%;
+  height: 200px;
+  margin-top: 10px;
+}
+
+.banner_02 {
+flex:1;
+background-image: url("../images/banner02.png");
+background-position: center;
+background-size: cover;
+
+
+}
+.banner_03 {
+flex:1;
+background-image: url("../images/banner03.png");
+background-position: center;
+background-size: cover;
+}
+main {
+  display: flex;
+}
+
+footer {
+  position: relative;
+  display: flex;
+  align-items: center; justify-content: center;
+  background-color: #4a4747;
+  height: 80px;
+  margin-top: 10px;
+  color: white;
+}
+footer  p {
+  font-size: 1.2rem;
+}

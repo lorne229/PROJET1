@@ -1,0 +1,75 @@
+form {
+  border-collapse: separate;
+  border-right: 10px;
+}
+
+.flexbox-item {
+ background-color: #FCECEC;
+ color: #4D4D4D;
+ font-size: 2rem;
+ text-decoration:none ;
+ padding-top: 10px;
+ padding-left: 20px;
+ margin-top: 05px;
+ margin-right: 5px;
+ padding-bottom: 10px;
+ 
+ 
+}
+.flexbox-item3 a{
+  color: black !important;
+}
+  .flexbox-item3{
+    opacity: 0.6
+  }
+tr {
+ height: 7rem;
+
+}
+th {
+  width: 150px;
+  text-align: right;
+  color: rgb(14, 14, 14);
+  padding-right: 10px;
+  
+}
+td {
+    width: 480px;    
+    height: 1.5rem;
+  }
+td textarea{
+  width: 480px;
+  height: 7rem;
+}
+
+
+.namefield {
+  width: 480px;
+  height: 2rem;
+}
+
+.emailfield {
+  width: 480px;
+  height: 2rem;
+}
+
+.button-box{
+  float: right;
+  padding-right: 250px;
+}
+
+button {
+  padding: 10px;
+  background-color: #008B8B;
+  color: white;
+  font-size: 2em;
+  
+ }
+
+ button:hover {
+ opacity: 0.5;
+ }
+
+
+
+
